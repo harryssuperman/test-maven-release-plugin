@@ -12,6 +12,7 @@
 	<artifactId>test-maven-release-plugin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>test-maven-release-plugin</name>
+	<packaging>pom</packaging>
 	<description>Demo project for Spring Boot and maven release plugin</description>
 	<url/>
 	<licenses>
@@ -21,11 +22,15 @@
 		<developer/>
 	</developers>
 	<scm>
-		<connection/>
+		<connection>scm:git:git@github.com:harryssuperman/test-maven-release-plugin.git</connection>
 		<developerConnection/>
 		<tag/>
 		<url/>
 	</scm>
+	<modules>
+		<module>module1</module>
+		<module>module2</module>
+	</modules>
 	<properties>
 		<java.version>21</java.version>
 	</properties>
@@ -43,6 +48,7 @@
 	</dependencies>
 
 	<build>
+		<defaultGoal>clean install</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
