@@ -17,10 +17,10 @@
         <developer />
     </developers>
     <scm>
-        <connection></connection>
-        <developerConnection></developerConnection>
-        <tag></tag>
-        <url></url>
+        <connection />
+        <developerConnection />
+        <tag>release/0.0.2</tag>
+        <url />
     </scm>
     <properties>
         <java.version>21</java.version>
