@@ -9,3 +9,5 @@ Test Maven Release Plugin Project is a multimodule maven spring boot project.
 ## Maven create branch
 
 `mvn release:branch -DbranchName=release/0.0.2 -DautoVersionSubmodules=true -DtagNameFormat=v@{version} ` 
+
+test
