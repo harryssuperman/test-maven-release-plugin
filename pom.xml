@@ -21,7 +21,7 @@
 		<developer />
 	</developers>
 	<scm>
-		<connection>scm:git:ssh@github.com:harryssuperman/test-maven-release-plugin.git</connection>
+		<connection>scm:git:ssh@github.com/harryssuperman/test-maven-release-plugin.git</connection>
 		<developerConnection>scm:git:ssh@github.com/harryssuperman/test-maven-release-plugin.git</developerConnection>
 		<tag>test-maven-release-plugin-0.0.4</tag>
 		<url>https://github.com/harryssuperman/test-maven-release-plugin.git</url>
