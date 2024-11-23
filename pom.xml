@@ -24,7 +24,7 @@
 		<connection>scm:git:git@github.com:harryssuperman/test-maven-release-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:harryssuperman/test-maven-release-plugin.git</developerConnection>
 		<tag>v0.0.3</tag>
-		<url>git@github.com:harryssuperman/test-maven-release-plugin.git</url>
+		<url>https://github.com/harryssuperman/test-maven-release-plugin.git</url>
 	</scm>
 	<modules>
 		<module>module1</module>
@@ -38,7 +38,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub</name>
-			<url>git@github.com:harryssuperman/test-maven-release-plugin.git</url>
+			<url>https://maven.pkg.github.com/harryssuperman/test-maven-release-plugin.git</url>
 		</repository>
 	</distributionManagement>
 	<dependencies>
