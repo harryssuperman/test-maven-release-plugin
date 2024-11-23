@@ -38,7 +38,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub</name>
-			<url>https://maven.pkg.github.com/harryssuperman/test-maven-release-plugin</url>
+			<url>git://maven.pkg.github.com/harryssuperman/test-maven-release-plugin</url>
 		</repository>
 	</distributionManagement>
 	<dependencies>
