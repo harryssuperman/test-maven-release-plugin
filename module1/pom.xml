@@ -4,10 +4,10 @@
 	<parent>
 		<groupId>com.github.harryssuperman</groupId>
 		<artifactId>test-maven-release-plugin</artifactId>
-		<version>0.0.3</version>
+		<version>0.0.4-SNAPSHOT</version>
 	</parent>
 	<artifactId>test-maven-release-plugin-module1</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<description>Demo project for Spring Boot and maven release plugin - module 1</description>
 	<url />
 	<licenses>
