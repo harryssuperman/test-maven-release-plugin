@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.github.harryssuperman</groupId>
 	<artifactId>test-maven-release-plugin</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>test-maven-release-plugin</name>
 	<packaging>pom</packaging>
 	<description>Demo project for Spring Boot and maven release plugin</description>
@@ -23,8 +23,8 @@
 	<scm>
 		<connection>scm:git:git@github.com:harryssuperman/test-maven-release-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:harryssuperman/test-maven-release-plugin.git</developerConnection>
-		<tag>v0.0.3</tag>
-		<url>git@github.com:harryssuperman/test-maven-release-plugin.git</url>
+		<tag>HEAD</tag>
+		<url>https://github.com/harryssuperman/test-maven-release-plugin.git</url>
 	</scm>
 	<modules>
 		<module>module1</module>
@@ -38,7 +38,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub</name>
-			<url>git@github.com:harryssuperman/test-maven-release-plugin.git</url>
+			<url>git://maven.pkg.github.com/harryssuperman/test-maven-release-plugin</url>
 		</repository>
 	</distributionManagement>
 	<dependencies>
