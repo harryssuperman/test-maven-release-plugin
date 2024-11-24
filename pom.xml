@@ -40,12 +40,12 @@
         <repository>
             <id>github</id>
             <name>GitHub</name>
-            <url>https://github.com/harryssuperman/test-maven-release-plugin.git</url>
+            <url>https://maven.pkg.github.com/harryssuperman/test-maven-release-plugin.git</url>
         </repository>
         <snapshotRepository>
             <id>github</id>
             <name>GitHub</name>
-            <url>https://github.com/harryssuperman/test-maven-release-plugin.git</url>
+            <url>https://maven.pkg.github.com/harryssuperman/test-maven-release-plugin.git</url>
         </snapshotRepository>
     </distributionManagement>
     <dependencies>
