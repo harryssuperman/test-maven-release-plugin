@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.github.harryssuperman</groupId>
     <artifactId>test-maven-release-plugin</artifactId>
-    <version>0.0.13-SNAPSHOT</version>
+    <version>0.0.14-SNAPSHOT</version>
     <name>test-maven-release-plugin</name>
     <packaging>pom</packaging>
     <description>Demo project for Spring Boot and maven release plugin</description>
